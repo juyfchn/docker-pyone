@@ -16,8 +16,8 @@ RUN \
     yum makecache && \
     yum -y update && \
     yum -y install \
-        grep \
-        pcre \
+        iproute \
+        iproute-doc \
         nc \
         vim \
         git \
