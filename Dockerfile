@@ -16,6 +16,10 @@ RUN \
     yum makecache && \
     yum -y update && \
     yum -y install \
+        grep \
+        cut \
+        xargs \
+        systemctl \
         nc \
         vim \
         git \
