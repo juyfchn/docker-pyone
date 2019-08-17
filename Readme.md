@@ -18,12 +18,11 @@
 
 ## 构建：
  
-   、、、
-   
+   ```
    git clone https://github.com/juyfchn/docker-pyone.git
    cd docker-pyone
    docker build -t juyfchn/pyone -f Dockerfile .
-   、、、
+   ```
    
 ## 运行：
 
