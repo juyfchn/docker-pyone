@@ -17,9 +17,14 @@
 - `alpine-commit_sha`：以alpine为基础系统，[abbeyokgo/PyOne](https://github.com/abbeyokgo/PyOne/commits/master) Commit sha对应的提交。
 
 ## 构建：
+ 
+   、、、
+   
    git clone https://github.com/juyfchn/docker-pyone.git
    cd docker-pyone
    docker build -t juyfchn/pyone -f Dockerfile .
+   、、、
+   
 ## 运行：
 
 - 使用`docker run`命令运行：
