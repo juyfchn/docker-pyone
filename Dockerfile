@@ -17,9 +17,7 @@ RUN \
     yum -y update && \
     yum -y install \
         grep \
-        cut \
-        xargs \
-        systemctl \
+        pcre \
         nc \
         vim \
         git \
